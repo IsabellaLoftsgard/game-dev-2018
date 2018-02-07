@@ -1,0 +1,10 @@
+<h1 align=center>If Statements by Bella</h1>
+
+<h4>Make 8 different types of "if" statements</h4>
+
+<input type=button value="x=6, if x > 6" onclick="{
+   myTemp = ''
+   x = 6
+   if (x > 6){myTemp += 'Is Greater than 6 <br>'}
+      else { myTemp += 'Not greater than 6 <br>'}
+document.getElementById('myDiv01').innerHTML = myTemp
