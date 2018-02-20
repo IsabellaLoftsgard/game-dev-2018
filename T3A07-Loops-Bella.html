@@ -1,0 +1,17 @@
+<h2 align=center>Loops by Bella</h2>
+
+x = <input id="myText01" type=text value=10 size=4><br>
+
+<input type=button value="Loop" onclick="{
+myTemp = ''
+myInput = document.getElementById('myText01').value
+
+for (myLoop = 1; myLoop <= 5; myLoop++) {
+ 
+   myTemp += myLoop + ', '+ myInput + '<br>'
+}
+
+ document.getElemntById('myDiv01').innerHTML = myTEMP
+}">
+
+<div id='myDiv01"></div><br>
