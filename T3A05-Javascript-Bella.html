@@ -1,3 +1,4 @@
+
 <h1 align=center>If Statements by Bella</h1>
 
 <h4>Make 8 different types of "if" statements</h4>
@@ -8,11 +9,20 @@
    if (x > 6){myTemp += 'Is Greater than 6 <br>'}
       else { myTemp += 'Not greater than 6 <br>'}
 document.getElementById('myDiv01').innerHTML = myTemp
+}                                                  
 
+if (hour < 18) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+} 
 
-
-
-
+var x = 5;
+if (x > 10) {
+    console.log('x is greater than 10');
+} else {
+    console.log('x is less than or equal 10');
+}
 
 x=<input id="myText01" type=text value=6 size=4><br>
   myTemp = ''
@@ -24,3 +34,24 @@ document.getElementById('myDiv01').innerHTML = myTemp
 }">
 
 <div id="myDiv01"></div><br>
+
+var a = 10, b = 20;
+if (a > b) {
+    console.log('a is greater than b');
+} else if (a < b) {
+    console.log('a is less than b');
+} else {
+    console.log('a is equal to b');
+}
+
+function testNum(a) {
+  if (a > 0) {
+    return "positive";
+  } else {
+    return "NOT positive";
+  }
+}
+
+console.log(testNum(-5));
+   
+   
