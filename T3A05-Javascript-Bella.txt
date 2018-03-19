@@ -1,7 +1,0 @@
-<input type=button value="filex<6" onclick="{
-myTemp=''
-if(x>6) {myTemp += 'larger than 6'}
-else{myTemp += 'less than 6'}
-document.getElementById('myDiv01').innerHTML=myTemp
-}">
-<div id="myDiv01"></div>
