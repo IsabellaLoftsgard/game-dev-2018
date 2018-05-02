@@ -1,0 +1,19 @@
+<h2 align=center>Auto by Fred</h2>
+
+<input type=button value="Start Auto" onclick="{
+
+document.myInterval = setInterval(function (){
+
+document.getElementById('myDiv01').style.left = parseInt(document.getElementById('myDiv01').style.left) + 3 + 'px'
+
+}, 20) // repeat every 20 ms
+
+}">
+
+<input type=button value="Stop Auto" onclick="{
+
+clearInterval(document.myInterval)
+
+}">
+
+<div id="myDiv01" style="position:absolute; left:20px; top:80px" >Fred</div><br>
